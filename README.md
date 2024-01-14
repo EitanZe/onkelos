@@ -14,5 +14,5 @@ the predictions, text can be displayed in Hebrew and in Latin characters. Primar
 
 analyze_results tallies up the verses attributed to yerushalmi, taking into account confidence of the prediction.
 
-DATE: 8/6/23
+DATE: 1/14/24
 CONTRIBUTORS: scraper - Eitan Zemel, train_clf - Dimid Duchovny, Eitan Zemel, analyze_results - Eitan Zemel
