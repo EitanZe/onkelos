@@ -8,6 +8,8 @@ train_clf is built off of a program by @dimidd that is trained on common tractat
 and those mistakenly labelled. It now still trains on the common tractates of the Talmudim (half in Jewish Palestinian Aramaic and half
 in Jewish Babylonian Aramaic) but instead analyzes the Targum Onkelos to predict the dialectal origin of different parts of the text.
 
+analyze_results tallies up the verses attributed to yerushalmi, taking into account confidence of the prediction.
+
 It utilizes the Multinomial Naive Bayes ML algorithm primarily, but also can analyze using Logistic Regression and LightGBM. For NB,
 it has the functionality of displaying the most influential words for making the prediction, along with that word's weight. Alongside
 the predictions, text can be displayed in Hebrew and in Latin characters. Primarily uses sklearn, pandas.
